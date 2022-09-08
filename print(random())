@@ -1,0 +1,11 @@
+import random
+
+random = random.randint(1,2)
+
+x = int(input('Введите любое число'))
+
+if x is not random:
+	print('Вы не угадали, число', random)
+else:
+	print('Угадали')
+
